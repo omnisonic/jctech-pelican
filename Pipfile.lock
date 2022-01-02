@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "467089d992ac413c5383da5b3e7a6a4a3cdcc6726c599e03b1f90a3588053222"
+            "sha256": "508e4f754346ea1548583a8a0b900f2a576c3b3266fbe5bca29ff866d4d22f42"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.9"
+            "python_version": "3.10"
         },
         "sources": [
             {
@@ -52,14 +52,6 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==2.0.0"
-        },
-        "importlib-metadata": {
-            "hashes": [
-                "sha256:92a8b58ce734b2a4494878e0ecf7d79ccd7a128b5fc6014c401e0b61f006f0f6",
-                "sha256:b7cf7d3fef75f1e4c80a96ca660efbd51473d7e8f39b5ab9210febc7809012a4"
-            ],
-            "markers": "python_version < '3.10'",
-            "version": "==4.10.0"
         },
         "invoke": {
             "hashes": [
@@ -206,7 +198,7 @@
                 "sha256:4949e73de321784ef6664ebbc854ac82b20ff60b2865097b93f3b9b41e30da27",
                 "sha256:bbe04dd6ac09e4b00d22cb1051aa127beaf6e16c3d8687b026e96d3fca6aad52"
             ],
-            "markers": "python_full_version >= '3.6.2' and python_full_version < '4.0.0'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.6.2'",
             "version": "==10.16.1"
         },
         "six": {
@@ -261,7 +253,7 @@
                 "sha256:fa2ba70284fa42c2a5ecb35e322e68823288a4251f9ba9cc77be04ae15eada68",
                 "sha256:fba85b6cd9c39be262fcd23865652920832b61583de2a2ca907dbd8e8a8c81e5"
             ],
-            "markers": "python_version >= '3.5'",
+            "markers": "python_version > '2.7'",
             "version": "==6.1"
         },
         "unidecode": {
@@ -271,14 +263,6 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==1.3.2"
-        },
-        "zipp": {
-            "hashes": [
-                "sha256:71c644c5369f4a6e07636f0aa966270449561fcea2e3d6747b8d23efaa9d7832",
-                "sha256:9fe5ea21568a0a70e50f273397638d39b03353731e6cbbb3fd8502a33fec40bc"
-            ],
-            "markers": "python_version >= '3.6'",
-            "version": "==3.6.0"
         }
     },
     "develop": {}
