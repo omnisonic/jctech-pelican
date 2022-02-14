@@ -3,6 +3,7 @@ SITENAME = 'jctech'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['static', 'images']
 THEME = 'blue-penguin'
 TIMEZONE = 'America/Denver'
 
@@ -27,12 +28,12 @@ DEFAULT_LANG = 'en'
 # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
 #           ('Another social link', '#'),)
-PLUGINS = [
-    # ...
-    'minchin.pelican.plugins.nojekyll',
-    # ...
-]
-DEFAULT_PAGINATION = 10
+# PLUGINS = [
+#     # ...
+#     'minchin.pelican.plugins.nojekyll',
+#     # ...
+# ]
+# DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
