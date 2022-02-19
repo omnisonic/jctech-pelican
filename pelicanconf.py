@@ -5,6 +5,8 @@ SITEURL = ''
 PATH = 'content'
 STATIC_PATHS = ['static', 'images']
 THEME = 'blue-penguin'
+# THEME = '/Users/omnisonic/Documents/code/MyWebDev/Python Static Sites/Pelican/pelican-themes/simple'
+# THEME = '/Users/omnisonic/Documents/code/MyWebDev/Python Static Sites/Pelican/pelican-themes/simple-jcm-1.0'
 TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = 'en'

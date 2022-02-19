@@ -48,12 +48,14 @@
     <meta name="author" content="{{ AUTHOR }}" />
     {% endblock head %}
 </head>
-<body>
+<body class="container-fluid">
     {% if DISPLAY_HEADER or DISPLAY_HEADER is not defined %}
     <header>
         {% if DISPLAY_MENU or DISPLAY_MENU is not defined %}
+        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="container-fluid">
+            <a class="navbar-brand" href="/">JCTECH</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -81,17 +83,20 @@
                 {% endfor %}
             </ul>
             </div>
+        </div>
         </nav>
+        
         {% endif %}
-        <div class="header_box">
+        <!-- <div class="header_box">
             <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
             {% if SITESUBTITLE %}
             <h2>{{ SITESUBTITLE }}</h2>
             {% endif %}
-        </div>
+        </div> -->
     </header>
     {% endif %}
     <div id="wrapper">
+        
         <div id="content">
             {%- block content -%}{%- endblock %}
 
