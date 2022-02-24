@@ -4,12 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pelican = {extras = ["markdown"], version = "*"}
 livereload = "*"
 invoke = "*"
+pelican = "==4.7.1"
 
 [dev-packages]
 
 [requires]
 python_version = "3.10"
-

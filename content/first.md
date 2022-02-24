@@ -6,7 +6,7 @@ We are a small family owned and operated web development business.
 
 We make fast, secure, hand coded websites with the help of the Python programming language.  
 
-##Our focus is on  "static" portfolio websites for small businesses, creators, and artists.
+##Blog and portfolio websites for small businesses, creators, and artists.
 
 We take care of everything for you so you don't ever have to do website editing yourself.  
 
