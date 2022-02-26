@@ -9,16 +9,18 @@ We are committed to serving our community by creating and maintaining fast, secu
 
 ###John Clarke
 
-    Senior Full-stack web Develper and Python Engineer
+<pre><code>$:  Senior Full-stack web Developer and Python Engineer <span class="vim-caret">_</span></pre></code>
+
 
 
 ###Thomas Clarke
 
-    Junior Full-stack web Developer and Python Engineer
+<pre><code>$:  Junior Full-stack web Developer and Python Engineer <span class="vim-caret">_</span></pre></code>
 
 ###Joe Clarke
-    Junior Full-stack web Developer and Python Engineer
-
+<pre><code>$:  Junior Full-stack web Developer and Python Engineer <span class="vim-caret">_</span></pre></code>
 
 ###James Bohisan
-    Intern extraordinaire
+<pre><code>$:  Intern extraordinaire <span class="vim-caret">_</span></pre></code>
+
+<br>

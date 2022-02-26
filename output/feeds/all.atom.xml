@@ -20,8 +20,7 @@ So for a "home" page we will leave out the date.  To make the page a "home" page
 
 &lt;p&gt;This bypasses generating the blog roll on the index.html and instead generates our "home" page there.&lt;/p&gt;
 &lt;p&gt;If we still want to include blog on our website we need to modify our "pelicanconf.py" file to include: &lt;/p&gt;
-&lt;pre class="bg-dark"&gt;&lt;code&gt;
-
+&lt;pre&gt;&lt;code&gt;
     INDEX_SAVE_AS = 'blog_index.html'
 
 &lt;/code&gt;&lt;/pre&gt;
@@ -31,7 +30,8 @@ So for a "home" page we will leave out the date.  To make the page a "home" page
 &lt;p&gt;So The static home page should be in the /content/pages/ directory.&lt;/p&gt;
 &lt;p&gt;To get our blog to show up in the menu we can the following to our pelicanconf.py: &lt;/p&gt;
 &lt;pre class="bg-dark"&gt;&lt;code&gt;
-
     MENUITEMS = ('Blog', '/blog_index.html'),
 
-&lt;/code&gt;&lt;/pre&gt;</content><category term="Pelican"></category></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;</content><category term="Pelican"></category></entry></feed>

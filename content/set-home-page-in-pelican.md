@@ -32,8 +32,7 @@ This bypasses generating the blog roll on the index.html and instead generates o
 
 If we still want to include blog on our website we need to modify our "pelicanconf.py" file to include: 
 
-<pre class="bg-dark"><code>
-
+<pre><code>
     INDEX_SAVE_AS = 'blog_index.html'
 
 </code></pre>
@@ -49,7 +48,8 @@ So The static home page should be in the /content/pages/ directory.
 To get our blog to show up in the menu we can the following to our pelicanconf.py: 
 
 <pre class="bg-dark"><code>
-
     MENUITEMS = ('Blog', '/blog_index.html'),
 
 </code></pre>
+
+<br>

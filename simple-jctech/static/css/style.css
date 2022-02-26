@@ -16,3 +16,60 @@ a:hover {
     text-decoration: underline;
     color: #f9fafb;;
 }
+
+pre {
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
+}
+
+.vim-caret {
+
+	animation: vimCaret 1s linear infinite;
+}
+
+vim-caret {
+    -webkit-animation:vimCaret 1s linear infinite;
+    -o-animation:vimCaret 1s linear infinite;
+    animation:vimCaret 1s linear infinite
+   }
+   @-webkit-keyframes vimCaret {
+    0% {
+     background-color:transparent
+    }
+    49% {
+     background-color:transparent
+    }
+    50% {
+     background-color:rgba(255,255,255,.2)
+    }
+    100% {
+     background-color:rgba(255,255,255,.2)
+    }
+   }
+   @-o-keyframes vimCaret {
+    0% {
+     background-color:transparent
+    }
+    49% {
+     background-color:transparent
+    }
+    50% {
+     background-color:rgba(255,255,255,.2)
+    }
+    100% {
+     background-color:rgba(255,255,255,.2)
+    }
+   }
+   @keyframes vimCaret {
+    0% {
+     background-color:transparent
+    }
+    49% {
+     background-color:transparent
+    }
+    50% {
+     background-color:rgba(255,255,255,.2)
+    }
+    100% {
+     background-color:rgba(255,255,255,.2)
+    }
+   }
