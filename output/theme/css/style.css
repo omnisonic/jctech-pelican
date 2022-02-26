@@ -6,3 +6,13 @@ html {
 body {
     max-width: 700px;
 }     
+
+a {
+	color: #f9fafb;;
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f9fafb;;
+}
