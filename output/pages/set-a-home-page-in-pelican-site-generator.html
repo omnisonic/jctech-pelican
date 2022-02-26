@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>jctech - Tags</title>
+    <title>jctech - Set a Home Page in Pelican Site Generator.</title>
   <meta charset="utf-8" />
   <meta name="generator" content="Pelican" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,6 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="/theme/css/style.css"> 
 
   <!-- <link rel="stylesheet" media="(min-width: 901px)" type="text/css" href="/theme/css/style.css" />
   <link rel="stylesheet" media="(max-width: 900px)" type="text/css" href="/theme/css/small.css" /> -->
@@ -22,6 +21,8 @@
   <link
     href="/feeds/all.atom.xml"
     type="application/atom+xml" rel="alternate" title="jctech Full Atom Feed" />
+
+
 </head>
 
 <body id="index" class="home bg-dark ">
@@ -30,7 +31,7 @@
     <img src="/static/images/header-2_cropped.jpg" class="img-fluid" alt="Responsive image"> -->
     <!-- <div class="hero-text">
       <header id="banner" class="body">
-        <h1><a href="/">jctech <strong>Full Service Web Development for Small Businesses, Creators, and Artists</strong></a></h1>
+        <h1><a href="/">jctech</a></h1>
       </header> -->
     <!-- </div>  -->
 
@@ -46,20 +47,17 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
-          <li class="nav-item">
-<a  class="nav-link active" aria-current="page" href="/blog_index.html">Blog</a></li>
- 
 
           <li class="nav-item">
  <a class="nav-link" href="/pages/about.html">About </a></li>
           <li class="nav-item">
  <a class="nav-link" href="/pages/contact.html">Contact </a></li>
           <li class="nav-item">
- <a class="nav-link" href="/">Welcome </a></li>
-          <li class="nav-item">
  <a class="nav-link" href="/pages/portfolio.html">Portfolio </a></li>
+          <li class="nav-item">
+<a class="nav-link active" aria-current="page" href="/pages/set-a-home-page-in-pelican-site-generator.html">Set a Home Page in Pelican Site Generator.</a></li>
 
-          <!--           <li><a href="/category/pelican.html">Pelican</a></li>
+          <!--           <li><a href="/category/blog.html">Blog</a></li>
  -->
             <!-- </ul></nav> -->
         </ul>
@@ -70,16 +68,16 @@
     <img src="/static/images/header-2_cropped.jpg" class="img-fluid" alt="Responsive image"> -->
     <!-- <div class="hero-text">
       <header id="banner" class="body">
-        <h1><a href="/">jctech <strong>Full Service Web Development for Small Businesses, Creators, and Artists</strong></a></h1>
+        <h1><a href="/">jctech</a></h1>
       </header>
     </div> -->
   <!-- </div> -->
   <!-- /#menu -->
   <div class="bg-dark text-secondary px-4 py-5 text-center ">
     <div class="py-5">
-      <h1 class="display-5 fw-bold text-white">jctech</h1>
+      <h1 class="display-5 fw-bold text-white">JCTECH</h1>
       <div class="col-lg-6 mx-auto">
-        <p class="fs-5 mb-4">Full Service Web Development for Small Businesses, Creators, and Artists</p>
+        <p class="fs-5 mb-4">Full Servic Web Development for Small Businesses, Creators, and Artists</p>
         <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
           <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
@@ -89,9 +87,27 @@
   </div>
 
   <div class="container-sm bg-secondary text-light rounded">
-    <h1>Tags for jctech</h1>
-    <ul>
-    </ul>
+    <h1>Set a Home Page in Pelican Site Generator.</h1>
+    
+
+    <p>Pelican is a website generator using python.
+The default configuration is to generate the website as a blog.  Blogs use a "blogroll" where summaries of each blog are shown on the page as you scroll down.  This is usually set up on the blog website index.  This is how thing are set up in Pelican by default.  But what if you want to make a landing page or some other kind of content for you the home page of your website?  This can be done with Pelican with some configurations.</p>
+<p>The details of how to do this can be found in the official Documentations https://docs.getpelican.com/en/latest/</p>
+<p>The part of the documentation that specifically addresses this is in the FAQ: https://docs.getpelican.com/en/latest/faq.html#how-can-i-use-a-static-page-as-my-home-page</p>
+<p>Here is a screen shot:</p>
+<p><img src="/images/page-as-home-pelican.jpg"></p>
+<p>The Pelican "meta data" for every page or post should have "title: " .
+To make the it a post rather then a page we simply include  the date to the meta data.
+So for a "home" page we will leave out the date.  To make the page a "home" page we will include 
+URL:
+save_as: index.html</p>
+<p>This bypasses generating the blog roll on the index.html and instead generates our "home" page there.</p>
+<p>If we still want to include blog on our website we need to modify our "pelicanconf.py" file to include: 
+INDEX_SAVE_AS = 'blog_index.html'</p>
+<p>the "index.html" template within Pelican themes is used to set up the blog by default.  The above setting in the pelicanconf.py tells pelican to generate that blog on the "blog_index.html" in our output.  </p>
+<hr>
+<hr>
+
 </div>
 
 

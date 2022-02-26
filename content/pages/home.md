@@ -1,6 +1,6 @@
-Title: Welcome to JCTECH
-Date: 2010-12-03 10:20
-Category: Blog
+title: Welcome
+URL:
+save_as: index.html
 
 We are a small family owned and operated web development business.
 
@@ -18,5 +18,4 @@ We take care of everything for you so you don't ever have to do website editing 
 
 - We edit your website at your request.
 
-
-
+<br>

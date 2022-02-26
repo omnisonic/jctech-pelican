@@ -6,4 +6,4 @@ category: Main
 
 ## OilyFish Blog and Website
 
-<a href="https://www.oilyfish.xyz"><img src="/images/oilyfishweb.jpg" alt="Oilyfish Website Screenshot and Link" style="width:100%" class="rounded"></a>
+<a href="https://www.oilyfish.xyz"><img src="/images/oilyfishweb.jpg" alt="Oilyfish Website Screenshot and Link" style="width:50%" class="rounded img-fluid"></a>

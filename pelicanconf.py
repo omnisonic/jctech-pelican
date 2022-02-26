@@ -3,17 +3,19 @@ SITENAME = 'jctech'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['static', 'images']
+# STATIC_PATHS = ['static', 'images']
 THEME = 'simple-jctech'
 # THEME = '/Users/omnisonic/Documents/code/MyWebDev/Python Static Sites/Pelican/pelican-themes/simple'
 # THEME = '/Users/omnisonic/Documents/code/MyWebDev/Python Static Sites/Pelican/pelican-themes/simple-jcm-1.0'
 TIMEZONE = 'America/Denver'
+SITESUBTITLE = 'Full Service Web Development for Small Businesses, Creators, and Artists'
 
 DEFAULT_LANG = 'en'
+
+INDEX_SAVE_AS = 'blog_index.html'
 # DISPLAY_PAGES_ON_MENU = True
-# MENUITEMS = (('About', '/pages/about.html'),
-#         ('Contact', '/pages/contact.html'),
-#         ('Portfolio', '/pages/portfolio.html'))
+MENUITEMS = ('Blog', '/blog_index.html'),
+
 # Feed generation is usually not desired when developing
 # FEED_ALL_ATOM = None
 # CATEGORY_FEED_ATOM = None
