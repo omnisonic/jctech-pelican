@@ -16,11 +16,18 @@ Here is a screen shot:
 
 <img src="/images/page-as-home-pelican.jpg" class="img-fluid">
 
-The Pelican "meta data" for every page or post should have "title: " .
-To make the it a post rather then a page we simply include  the date to the meta data.
+The Pelican "meta data" should be included at the top of every  article (aka post) and should include:
+
+<pre><code> 
+    title:  Your Title
+    date: year-mo-day
+
+</code></pre>
+
+To make it a page rather then a post we  exclude the date from the meta data.
 So for a "home" page we will leave out the date.  To make the page a "home" page we will include:
 
-<pre class="bg-dark"><code>
+<pre><code>
     title:  Home
     URL:
     save_as: index.html
@@ -40,14 +47,14 @@ If we still want to include blog on our website we need to modify our "pelicanco
 
 The "index.html" template within Pelican themes is used to set up the blog by default.  The above setting in the pelicanconf.py tells pelican to generate that blog on the "blog_index.html" in our output.  
 
-As a side note, another important distinction between posts and pages, is that pages need to be inside the pages director eg /content/pages/; whereas the md files directly under the /content/ are treated as post and included in the blog roll index.  
+* An important thing to note, as a distinction between posts and pages, is that pages need to be inside the pages director eg /content/pages/; whereas the md files directly under the /content/ are treated as post and included in the blog roll index.  
 
 So The static home page should be in the /content/pages/ directory.
 
 
 To get our blog to show up in the menu we can the following to our pelicanconf.py: 
 
-<pre class="bg-dark"><code>
+<pre ><code>
     MENUITEMS = ('Blog', '/blog_index.html'),
 
 </code></pre>

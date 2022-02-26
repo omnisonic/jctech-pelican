@@ -8,10 +8,16 @@ The default configuration is to generate the website as a blog.  Blogs use a "bl
 &lt;p&gt;The part of the documentation that specifically addresses this is in the FAQ: https://docs.getpelican.com/en/latest/faq.html#how-can-i-use-a-static-page-as-my-home-page&lt;/p&gt;
 &lt;p&gt;Here is a screen shot:&lt;/p&gt;
 &lt;p&gt;&lt;img src="/images/page-as-home-pelican.jpg" class="img-fluid"&gt;&lt;/p&gt;
-&lt;p&gt;The Pelican "meta data" for every page or post should have "title: " .
-To make the it a post rather then a page we simply include  the date to the meta data.
+&lt;p&gt;The Pelican "meta data" should be included at the top of every  article (aka post) and should include:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; 
+    title:  Your Title
+    date: year-mo-day
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To make it a page rather then a post we  exclude the date from the meta data.
 So for a "home" page we will leave out the date.  To make the page a "home" page we will include:&lt;/p&gt;
-&lt;pre class="bg-dark"&gt;&lt;code&gt;
+&lt;pre&gt;&lt;code&gt;
     title:  Home
     URL:
     save_as: index.html
@@ -26,10 +32,12 @@ So for a "home" page we will leave out the date.  To make the page a "home" page
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The "index.html" template within Pelican themes is used to set up the blog by default.  The above setting in the pelicanconf.py tells pelican to generate that blog on the "blog_index.html" in our output.  &lt;/p&gt;
-&lt;p&gt;As a side note, another important distinction between posts and pages, is that pages need to be inside the pages director eg /content/pages/; whereas the md files directly under the /content/ are treated as post and included in the blog roll index.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An important thing to note, as a distinction between posts and pages, is that pages need to be inside the pages director eg /content/pages/; whereas the md files directly under the /content/ are treated as post and included in the blog roll index.  &lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;So The static home page should be in the /content/pages/ directory.&lt;/p&gt;
 &lt;p&gt;To get our blog to show up in the menu we can the following to our pelicanconf.py: &lt;/p&gt;
-&lt;pre class="bg-dark"&gt;&lt;code&gt;
+&lt;pre &gt;&lt;code&gt;
     MENUITEMS = ('Blog', '/blog_index.html'),
 
 &lt;/code&gt;&lt;/pre&gt;

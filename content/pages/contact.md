@@ -5,7 +5,8 @@ category: Main
 
 <link rel="stylesheet" href="/static/theme/css/formspree.css" type="text/css" />
 
-<form class="text-muted" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xnqwdnle" method="post">
+<div class="mx-auto" style="width: 90%;" >
+<form class="text-muted" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xnqwdnle" method="post" >
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
@@ -17,6 +18,9 @@ category: Main
   </fieldset>
   <input type="submit" value="Submit">
 </form>
+</div>
+
+<br>
 
 
 <script type="text/javascript">

@@ -18,6 +18,12 @@
                     </address>
                 </footer><!-- /.post-info -->
                 <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
+                       <div class="d-grid gap-2 d-sm-flex ">
+       
+          <a class="btn btn-outline-light btn-lg px-4" href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Link to {{ article.title|striptags }}" role="button">Read More</a>
+
+
+        </div><br>
         </article></li>
 {% endfor %}
 </ol><!-- /#posts-list -->

@@ -5,6 +5,7 @@ html {
 
 body {
     max-width: 700px;
+    margin-bottom:10%;
 }     
 
 a {
@@ -19,6 +20,26 @@ a:hover {
 
 pre {
     background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	width: unset;
+	/* padding-right: var(--bs-gutter-x,.75rem);
+	padding-left: var(--bs-gutter-x,.75rem); */
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.fixed-top {
+	position: unset;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
 }
 
 .vim-caret {

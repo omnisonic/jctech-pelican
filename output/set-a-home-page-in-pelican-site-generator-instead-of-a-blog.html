@@ -83,8 +83,8 @@
     </div> -->
   <!-- </div> -->
   <!-- /#menu -->
-  <div class="bg-dark text-secondary px-4 py-5 text-center ">
-    <div class="py-5">
+  <div class="bg-dark text-secondary px-4 text-center ">
+    <div >
       <h1 class="display-5 fw-bold text-white">jctech</h1>
       <div class="col-lg-6 mx-auto">
         <p class="fs-5 mb-4">Full Service Web Development for Small Businesses, Creators, and Artists</p>
@@ -123,10 +123,16 @@ The default configuration is to generate the website as a blog.  Blogs use a "bl
 <p>The part of the documentation that specifically addresses this is in the FAQ: https://docs.getpelican.com/en/latest/faq.html#how-can-i-use-a-static-page-as-my-home-page</p>
 <p>Here is a screen shot:</p>
 <p><img src="/images/page-as-home-pelican.jpg" class="img-fluid"></p>
-<p>The Pelican "meta data" for every page or post should have "title: " .
-To make the it a post rather then a page we simply include  the date to the meta data.
+<p>The Pelican "meta data" should be included at the top of every  article (aka post) and should include:</p>
+<pre><code> 
+    title:  Your Title
+    date: year-mo-day
+
+</code></pre>
+
+<p>To make it a page rather then a post we  exclude the date from the meta data.
 So for a "home" page we will leave out the date.  To make the page a "home" page we will include:</p>
-<pre class="bg-dark"><code>
+<pre><code>
     title:  Home
     URL:
     save_as: index.html
@@ -141,10 +147,12 @@ So for a "home" page we will leave out the date.  To make the page a "home" page
 </code></pre>
 
 <p>The "index.html" template within Pelican themes is used to set up the blog by default.  The above setting in the pelicanconf.py tells pelican to generate that blog on the "blog_index.html" in our output.  </p>
-<p>As a side note, another important distinction between posts and pages, is that pages need to be inside the pages director eg /content/pages/; whereas the md files directly under the /content/ are treated as post and included in the blog roll index.  </p>
+<ul>
+<li>An important thing to note, as a distinction between posts and pages, is that pages need to be inside the pages director eg /content/pages/; whereas the md files directly under the /content/ are treated as post and included in the blog roll index.  </li>
+</ul>
 <p>So The static home page should be in the /content/pages/ directory.</p>
 <p>To get our blog to show up in the menu we can the following to our pelicanconf.py: </p>
-<pre class="bg-dark"><code>
+<pre ><code>
     MENUITEMS = ('Blog', '/blog_index.html'),
 
 </code></pre>
