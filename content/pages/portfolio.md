@@ -25,6 +25,6 @@ category: Main
 
 ## John Clarke Music Website
 
-<img src="/images/jcm-thumb.jpg" alt="jcm thumb image" style="width:60%" class="rounded img-fluit"><br><a href="https://johnclarkemusic/">https://johnclarkemusic/</a>
+<img src="/images/jcm-thumb.jpg" alt="jcm thumb image" style="width:60%" class="rounded img-fluit"><br><a href="https://johnclarkemusic.com/">https://johnclarkemusic.com/</a>
 
 ---
