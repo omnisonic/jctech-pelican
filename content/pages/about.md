@@ -20,7 +20,7 @@ We are committed to serving our community by creating and maintaining fast, secu
 ###Joe Clarke
 <pre><code>$:  Junior Full-stack web Developer and Python Engineer <span class="vim-caret">_</span></pre></code>
 
-###James Bohisan
+###James Buhisan
 <pre><code>$:  Intern extraordinaire <span class="vim-caret">_</span></pre></code>
 
 <br>

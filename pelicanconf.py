@@ -5,10 +5,8 @@ SITEURL = ''
 PATH = 'content'
 # STATIC_PATHS = ['static', 'images']
 THEME = 'simple-jctech'
-# THEME = '/Users/omnisonic/Documents/code/MyWebDev/Python Static Sites/Pelican/pelican-themes/simple'
-# THEME = '/Users/omnisonic/Documents/code/MyWebDev/Python Static Sites/Pelican/pelican-themes/simple-jcm-1.0'
 TIMEZONE = 'America/Denver'
-SITESUBTITLE = 'Full Service Web Development for Small Businesses, Creators, and Artists'
+SITESUBTITLE = 'Full Service Website Development and Opperations for Small Businesses, Creators, and Artists'
 
 DEFAULT_LANG = 'en'
 

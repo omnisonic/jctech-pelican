@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>jctech - John Clarke</title><link href="/" rel="alternate"></link><link href="/feeds/john-clarke.atom.xml" rel="self"></link><id>/</id><updated>2021-02-25T00:00:00-07:00</updated><subtitle>Full Service Web Development for Small Businesses, Creators, and Artists</subtitle><entry><title>Set a Home Page in Pelican Site Generator instead of a Blog.</title><link href="/set-a-home-page-in-pelican-site-generator-instead-of-a-blog.html" rel="alternate"></link><published>2021-02-25T00:00:00-07:00</published><updated>2021-02-25T00:00:00-07:00</updated><author><name>John Clarke</name></author><id>tag:None,2021-02-25:/set-a-home-page-in-pelican-site-generator-instead-of-a-blog.html</id><summary type="html">&lt;hr&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>jctech - John Clarke</title><link href="/" rel="alternate"></link><link href="/feeds/john-clarke.atom.xml" rel="self"></link><id>/</id><updated>2022-02-25T00:00:00-07:00</updated><subtitle>Full Service Website Development and Opperations for Small Businesses, Creators, and Artists</subtitle><entry><title>Set a Home Page in Pelican Site Generator instead of a Blog.</title><link href="/set-a-home-page-in-pelican-site-generator-instead-of-a-blog.html" rel="alternate"></link><published>2022-02-25T00:00:00-07:00</published><updated>2022-02-25T00:00:00-07:00</updated><author><name>John Clarke</name></author><id>tag:None,2022-02-25:/set-a-home-page-in-pelican-site-generator-instead-of-a-blog.html</id><summary type="html">&lt;hr&gt;
 &lt;p&gt;Pelican is a website generator using python.
 The default configuration is to generate the website as a blog.  Blogs use a "blogroll" where summaries of each blog are shown on the page as you scroll down.  This is usually set up on the blog website index.  This is how thing …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;p&gt;Pelican is a website generator using python.
-The default configuration is to generate the website as a blog.  Blogs use a "blogroll" where summaries of each blog are shown on the page as you scroll down.  This is usually set up on the blog website index.  This is how thing are set up in Pelican by default.  But what if you want to make a landing page or some other kind of content for you the home page of your website?  This can be done with Pelican with some configurations.&lt;/p&gt;
+The default configuration is to generate the website as a blog.  Blogs use a "blogroll" where summaries of each blog are shown on the page as you scroll down.  This is usually set up on the blog website index.  This is how thing are set up in Pelican by default.  But what if you want to make a landing page or some other kind of content for you the home page of your website?  This can be done in Pelican with the some configurations.&lt;/p&gt;
 &lt;p&gt;The details of how to do this can be found in the official Documentations https://docs.getpelican.com/en/latest/&lt;/p&gt;
 &lt;p&gt;The part of the documentation that specifically addresses this is in the FAQ: https://docs.getpelican.com/en/latest/faq.html#how-can-i-use-a-static-page-as-my-home-page&lt;/p&gt;
 &lt;p&gt;Here is a screen shot:&lt;/p&gt;
@@ -11,7 +11,7 @@ The default configuration is to generate the website as a blog.  Blogs use a "bl
 &lt;p&gt;The Pelican "meta data" should be included at the top of every  article (aka post) and should include:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt; 
     title:  Your Title
-    date: year-mo-day
+    date: year-mo-da
 
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -33,10 +33,10 @@ So for a "home" page we will leave out the date.  To make the page a "home" page
 
 &lt;p&gt;The "index.html" template within Pelican themes is used to set up the blog by default.  The above setting in the pelicanconf.py tells pelican to generate that blog on the "blog_index.html" in our output.  &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;An important thing to note, as a distinction between posts and pages, is that pages need to be inside the pages director eg /content/pages/; whereas the md files directly under the /content/ are treated as post and included in the blog roll index.  &lt;/li&gt;
+&lt;li&gt;An important thing to note, as a distinction between posts and pages, is that pages need to be inside the pages directory, e.g. /content/pages/; whereas the .md files directly under the /content/ are treated as post and included in the blog roll index.  &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;So The static home page should be in the /content/pages/ directory.&lt;/p&gt;
-&lt;p&gt;To get our blog to show up in the menu we can the following to our pelicanconf.py: &lt;/p&gt;
+&lt;p&gt;To get our blog to show up in the menu we can add the following to our pelicanconf.py: &lt;/p&gt;
 &lt;pre &gt;&lt;code&gt;
     MENUITEMS = ('Blog', '/blog_index.html'),
 
