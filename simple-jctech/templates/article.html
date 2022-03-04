@@ -63,7 +63,11 @@
   <div class="entry-content ">
     {{ article.content }}
 
-    <script defer src="https://jctech-commento.herokuapp.com/js/commento.js"></script>
+    <script defer src="https://jctech-commento.herokuapp.com/js/commento.js"
+    data-css-override="{{SITEURL}}/theme/css/commento.css"
+    data-auto-init="true">
+      
+    </script>
 <div id="commento"></div>
   </div><!-- /.entry-content -->
 </section>

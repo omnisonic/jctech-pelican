@@ -1,0 +1,88 @@
+.commento-root textarea::placeholder {
+	background-color: #6c6c73;
+    color: unset;
+}
+
+.commento-root input[type="text"], .commento-root textarea {
+	background: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+	border: 1px solid rgba(50,50,93,.1);
+	border-radius: 3px;
+	color: #fdfdfd;
+}
+
+.commento-root .commento-submit-button:hover {
+	float: right;
+	background:transparent;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-top: 10px;
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.commento-root .commento-submit-button {
+	background:transparent;
+    border-color: white;
+}
+
+.commento-root .commento-login .commento-login-text {
+	color: white;
+}
+
+.commento-markdown-help {
+	color: white;
+}
+
+.commento-root * {
+    color: white
+}
+
+.commento-root a {
+	color: white;
+}
+
+.commento-root .commento-markdown-button {
+	color: white;
+
+}
+
+.commento-root .commento-login-box-container .commento-login-box .commento-email-container .commento-email .commento-input {
+
+	color: black;
+}
+
+.commento-root .commento-login-box-container .commento-login-box a:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.commento-root .commento-login-box-container .commento-login-box .commento-forgot-link, .commento-root .commento-login-box-container .commento-login-box .commento-login-link {
+	color: grey;
+	text-decoration: underline;
+}
+
+.commento-root .commento-sort-policy-buttons-container .commento-sort-policy-buttons .commento-sort-policy-button-selected {
+	color: white;
+	font-weight: 700;
+}
+
+.commento-root .commento-sort-policy-buttons-container .commento-sort-policy-buttons .commento-sort-policy-button {
+	color: white;
+}
+
+.commento-root .commento-card .commento-score {
+
+	color: black;
+
+}
+
+.commento-root .commento-card .commento-timeago {
+	display: inline;
+	color: black;
+	font-size: 12px;
+}
+
+.commento-root .commento-card .commento-name {
+	color: black;
+}
