@@ -3,8 +3,6 @@ Date: 2022-02-25
 Category: Pelican
 Author: John Clarke
 
----
-
 Pelican is a website generator using python.
 The default configuration is to generate the website as a blog.  Blogs use a "blogroll" where summaries of each blog are shown on the page as you scroll down.  This is usually set up on the blog website index.  This is how thing are set up in Pelican by default.  But what if you want to make a landing page or some other kind of content for you the home page of your website?  This can be done in Pelican with the some configurations.
 
@@ -14,7 +12,7 @@ The part of the documentation that specifically addresses this is in the FAQ: ht
 
 Here is a screen shot:
 
-<img src="/images/page-as-home-pelican.jpg" class="img-fluid">
+<img src="/images/page-as-home-pelican.jpg" class="img-fluid" max-width="60%">
 
 The Pelican "meta data" should be included at the top of every  article (aka post) and should include:
 

@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>jctech - John Clarke</title><link>/</link><description>Full Service Website Development and Opperations for Small Businesses, Creators, and Artists</description><lastBuildDate>Fri, 25 Feb 2022 00:00:00 -0700</lastBuildDate><item><title>Set a Home Page in Pelican Site Generator instead of a Blog.</title><link>/set-a-home-page-in-pelican-site-generator-instead-of-a-blog.html</link><description>&lt;hr&gt;
-&lt;p&gt;Pelican is a website generator using python.
+<rss version="2.0"><channel><title>jctech - John Clarke</title><link>/</link><description>Full Service Website Development and Opperations for Small Businesses, Creators, and Artists</description><lastBuildDate>Sat, 05 Mar 2022 21:52:09 -0700</lastBuildDate><item><title>Self Hosted comments with Commento and Heroku.</title><link>/self-hosted-comments-with-commento-and-heroku.html</link><description>&lt;h3&gt;Comments on your blog or website&lt;/h3&gt;
+&lt;p&gt;Basic Overview &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Sign up for free plan with Heroku&lt;/li&gt;
+&lt;li&gt;Click the deploy link in the github repo for commento++&lt;/li&gt;
+&lt;li&gt;Configure your app in Heroku&lt;/li&gt;
+&lt;li&gt;Configure website url in Commento Dashboard&lt;/li&gt;
+&lt;li&gt;Embed script in your website&lt;/li&gt;
+&lt;li&gt;Edit css &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If your looking for a commenting system …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Clarke</dc:creator><pubDate>Thu, 03 Mar 2022 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:None,2022-03-03:/self-hosted-comments-with-commento-and-heroku.html</guid><category>WebDev</category></item><item><title>Set a Home Page in Pelican Site Generator instead of a Blog.</title><link>/set-a-home-page-in-pelican-site-generator-instead-of-a-blog.html</link><description>&lt;p&gt;Pelican is a website generator using python.
 The default configuration is to generate the website as a blog.  Blogs use a "blogroll" where summaries of each blog are shown on the page as you scroll down.  This is usually set up on the blog website index.  This is how thing …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Clarke</dc:creator><pubDate>Fri, 25 Feb 2022 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:None,2022-02-25:/set-a-home-page-in-pelican-site-generator-instead-of-a-blog.html</guid><category>Pelican</category></item></channel></rss>

@@ -1,7 +1,7 @@
 AUTHOR = 'jctech'
 SITENAME = 'jctech'
 SITEURL = ''
-
+DEFAULT_DATE = 'fs'
 PATH = 'content'
 # STATIC_PATHS = ['static', 'images']
 THEME = 'simple-jctech'
