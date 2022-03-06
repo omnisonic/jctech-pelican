@@ -58,7 +58,7 @@ There are just a couple of field that are required.
 -App Name 
 
 -COMMENTO_FORBID_NEW_OWNERS 
-    default  is false.  You should set this to 'true' so that only you can register an admin account. You can also configure change this later from the heroku dashbar.
+    default  is false.  You should set this to 'true' so that only you can register an admin account. You can also change this later from the heroku dashbar.
 
 -COMMENTO_ORIGIN
     This one is important.  This is the url of where Commento will be hosted.  It will also be where you will login in to your admin dashboard for managing the commenting system.  You can configure a subdomain with your domain host like 'commento.yoursite.com'  or you can just do with the domain that Heroku gives you.  But since you havent created the app yet ,  you don't have the Heroku address for the app yet.  So just put in a place holder like "commento.yoursite.com".  It is important to change this once you get the Heroku address for the app.
