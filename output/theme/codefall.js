@@ -1,13 +1,24 @@
 // Initialising the canvas
 var canvas = document.querySelector('canvas'),
+
     ctx = canvas.getContext('2d');
 
+
+fitToContainer(canvas);
+
 // Setting the width and height of the canvas
-canvas.width = window.innerWidth / 2.5;
-canvas.height = window.innerHeight / 10 ;
+// canvas.width = window.innerWidth / 2.5;
+// canvas.height = window.innerHeight / 10 ;
+
+function fitToContainer(canvas){
+  canvas.style.width='100%';
+  canvas.style.height='100%';
+  canvas.width  = canvas.offsetWidth;
+  canvas.height = canvas.offsetHeight;
+}
 
 // Setting up the letters
-var letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
+var letters = '!@#$%^&*()[]{}/.,<>?=-abcdefghijklmnopqrstuvwxyz!@#$%^&*()[]{}/.,<>?=-ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ1234567890!@#$%^&*()[]{}/.,<>?=-';
 letters = letters.split('');
 
 // Setting up the columns
