@@ -5,6 +5,21 @@ category: Main
 
 ---
 
+## Demuira Jewelry
+E-commerce Website - AWS Hosted
+
+<img src="/images/Demuira-thumb.JPG" alt="Demuira Screenshot" style="width:60%" class="rounded img-fluid"><br><a href="https://main.d303h5f6wn8um.amplifyapp.com/">https://main.d303h5f6wn8um.amplifyapp.com/</a>
+
+---
+
+## Gamer Profile Website
+Static website styled by Bootstrap 5 - Github hosted.
+
+<img src="/images/star_thumb.JPG" alt="Star Citezen Screenshot" style="width:60%" class="rounded img-fluid"><br><a href="https://thomascytosis.github.io/Entry-Merc/">https://thomascytosis.github.io/Entry-Merc/</a>
+
+
+---
+
 ## OilyFish Blog and Website
 Built with Pelcan static site generator using python
 
