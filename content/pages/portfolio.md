@@ -8,7 +8,7 @@ category: Main
 ## Todo List app
 Built with Node.js backend connected to Mongo database, and Javascript frontend.
 
-<img src="/images/todo_thumb.JPG" alt="Demuira Screenshot" style="width:60%" class="rounded img-fluid"><br><a href="https://nameless-brook-21839.herokuapp.com/">https://nameless-brook-21839.herokuapp.com/</a>
+<img src="/images/todo_thumb.jpg" alt="todo Screenshot" style="width:60%" class="rounded img-fluid"><br><a href="https://nameless-brook-21839.herokuapp.com/">https://nameless-brook-21839.herokuapp.com/</a>
 
 ---
 
