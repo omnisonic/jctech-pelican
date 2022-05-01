@@ -5,10 +5,17 @@ category: Main
 
 ---
 
+## Todo List app
+Built with Node.js backend connected to Mongo database, and Javascript frontend.
+
+<img src="/images/todo_thumb.JPG" alt="Demuira Screenshot" style="width:60%" class="rounded img-fluid"><br><a href="https://nameless-brook-21839.herokuapp.com/">https://nameless-brook-21839.herokuapp.com/</a>
+
+---
+
 ## Demuira Jewelry
 E-commerce Website - AWS Hosted
 
-<img src="/images/Demuira-thumb.JPG" alt="Demuira Screenshot" style="width:60%" class="rounded img-fluid"><br><a href="https://main.d303h5f6wn8um.amplifyapp.com/">https://main.d303h5f6wn8um.amplifyapp.com/</a>
+<img src="/images/Demuira-thumb.JPG" alt="Demuira Screenshot" style="width:60%" class="rounded img-fluid"><br><a href="https://www.demuirajewelry.com/">https://www.demuirajewelry.com//</a>
 
 ---
 
