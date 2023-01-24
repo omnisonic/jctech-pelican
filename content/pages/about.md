@@ -11,7 +11,7 @@ We are committed to serving our community by creating and maintaining fast, secu
                         <div class="card-body">
                           <h5 class="card-title">John Clarke</h5>
                           <p>Web Developer, Administration, Solutions Architect</p>
-                          <a as="button" class="btn btn-primary" href="./pages/john_bio.html">About</a>
+                          <!-- <a as="button" class="btn btn-primary" href="./pages/john_bio.html">About</a> -->
                           <p class="card-text">At Your Service!</p>
                         </div>
                         <div class="card-body">
