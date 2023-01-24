@@ -104,3 +104,7 @@ body {background: #000;}
 canvas {display: block;}
 
 /* matrix rain */
+
+.card {
+    background-color: inherit;
+}

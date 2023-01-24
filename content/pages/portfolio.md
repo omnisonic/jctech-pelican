@@ -12,12 +12,12 @@ Built with Node.js backend connected to Mongo database, and Javascript frontend.
 
 ---
 
-## Demuira Jewelry
+<!-- ## Demuira Jewelry
 E-commerce Website - AWS Hosted
 
 <img src="/images/Demuira-thumb.JPG" alt="Demuira Screenshot" style="width:60%" class="rounded img-fluid"><br><a href="https://www.demuirajewelry.com/">https://www.demuirajewelry.com//</a>
 
----
+--- -->
 
 ## Gamer Profile Website
 Static website styled by Bootstrap 5 - Github hosted.
